@@ -8,9 +8,10 @@
 #include <filesystem>
 #include <fstream>
 
-
 namespace fs = std::filesystem;
 
+//----------------------------------------------------------------------------------------------------------------------
+// Struct was als Baumstruktur verwendet wird, um das Datei System zu indexen
 struct Entry {
     bool is_file;
     std::string name;
@@ -49,7 +50,7 @@ std::vector<Entry *> searchEntries(Entry *entry, std::string searchword) {
 }
 
 //----------------------------------------------------------------------------------------------------------------------
-
+// Einlesen der Dateien, geteilt in die erste Zeile in der die Schlagwörter stehen und den Rest der Datei in dem der Text steht
 void readFile(std::string filePath, Entry *entry) {
     std::string line;
     std::ifstream file;
@@ -63,8 +64,6 @@ void readFile(std::string filePath, Entry *entry) {
         //in der ersten Zeile stehen die Schlagwörter nach denen gesucht wird.
         std::getline(file, firstLine);
         while (std::getline(file, line)) {
-            //std::cout << line << std::endl;
-            //contend += line + "\n";
             contend.append(line + "\n");
         }
         file.close();
@@ -81,13 +80,15 @@ void readFile(std::string filePath, Entry *entry) {
 
         entry->searchWords.push_back(token);
 
-        std::cout << token << std::endl;
+        //std::cout << token << std::endl;
         firstLine.erase(0, pos + delimiter.length());
     }
     //letztes SearchWord wird noch hinzugefügt
     entry->searchWords.push_back(firstLine);
-    std::cout << firstLine << std::endl;
 }
+
+//----------------------------------------------------------------------------------------------------------------------
+// Rekursive Iteration durch die Ordner Struktur
 
 void iterateFolders(std::string path, Entry *parent) {
     for (auto &p: fs::directory_iterator(path)) {
@@ -95,7 +96,6 @@ void iterateFolders(std::string path, Entry *parent) {
         std::string s = p.path();
 
         std::string last_element(s.substr(s.rfind("/") + 1));
-        std::cout << last_element << std::endl;
 
         auto *entry = new Entry();
 
@@ -104,8 +104,6 @@ void iterateFolders(std::string path, Entry *parent) {
             entry->is_file = true;
             entry->name = last_element;
 
-            printf("%s", entry->content.c_str());
-            std::cout << entry->content << std::endl;
         } else {
             entry->is_file = false;
             entry->name = last_element;
@@ -117,15 +115,15 @@ void iterateFolders(std::string path, Entry *parent) {
     }
 }
 
+//----------------------------------------------------------------------------------------------------------------------
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-
+    
     std::string path = "/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/ALL/";
     Entry baseDirectory;
+    // is_file muss gesetzt werden damit das DateiSystem indexing funktioniert
     baseDirectory.is_file = false;
     iterateFolders(path, &baseDirectory);
-
 
     const std::vector<Entry *> &entries = searchEntries(&baseDirectory, "markus");
 
@@ -133,6 +131,6 @@ int main() {
     for (Entry *e : entries) {
         std::cout << e->name << std::endl;
     }
-    
+
     return 0;
 }
