@@ -1,0 +1,3 @@
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/cmake-build-debug/CMakeFiles/helpSystem.dir

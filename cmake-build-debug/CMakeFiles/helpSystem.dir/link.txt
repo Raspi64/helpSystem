@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/helpSystem.dir/main.cpp.o  -o helpSystem 
