@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.cpp
-helpSystem.hpp
-/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp
-iostream
--
-filesystem
--
-fstream
--
-
 /mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp
 string
 -

@@ -66,6 +66,10 @@ void readFile(std::string filePath, Entry *entry) {
     std::string delimiter = ";";
     size_t pos = 0;
     std::string token;
+
+    // \r am ende entfernen, damit dies ohne \r gespeichert wird
+    firstLine.erase(std::remove(firstLine.begin(), firstLine.end(), '\r'),firstLine.end());
+
     while ((pos = firstLine.find(delimiter)) != std::string::npos) {
         token = firstLine.substr(0, pos);
 
@@ -115,6 +119,7 @@ Entry initHelpSystem(std::string path){
     baseDirectory.is_file = false;
     //einlesen des Dateisystems
     traverseFolders(path, &baseDirectory);
+    printf("");
     return baseDirectory;
 }
 
