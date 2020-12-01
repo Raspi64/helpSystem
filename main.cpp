@@ -1,9 +1,10 @@
 #include <iostream>
+#include <filesystem>
 #include "helpSystem.hpp"
 
 int main() {
 
-    Entry baseDirectory = initHelpSystem("/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/ALL/");
+    Entry baseDirectory = initHelpSystem("../ALL/");
 
     std::string searchword;
     while(true) {
