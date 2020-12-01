@@ -3,4 +3,4 @@ project(helpSystem)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(helpSystem main.cpp)
+add_executable(helpSystem helpSystem.cpp helpSystem.hpp main.cpp)

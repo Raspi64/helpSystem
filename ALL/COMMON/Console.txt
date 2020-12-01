@@ -1,0 +1,38 @@
+console;bedienung;navigation;ausführen;stoppen;starten;beenden
+
+Console
+
+In der Console wird der jeweils geschriebene Programmcode ausgeführt und wieder beendet. Zudem bietet die Console weitere Hilfemöglichkeiten.
+Folgene Befehle sind in der Console ausführbar:
+
+1.RUN/START
+Mit dem Befehl "run" oder "start" kann das jeweilige Programm geladen und ausgeführt werden.
+---------
+
+2.LOAD ?
+Mit dem Befehl "load 'PROGRAMMNAME'" kann das jeweilige geschriebene und abgespeicherte Programm geladen werden.
+---------
+
+3.SAVE ?
+Mit dem Befehl "save 'PROGRAMMNAME'" kann das geschriebene Programm gespeichert werden.
+---------
+
+4.DELETE ?
+Mit dem Befehl "delete 'PROGRAMMNAME'" kann das geschriebene Programm wieder gelöscht werden.
+---------
+
+5.LIST ?
+Mit dem Befehl "list 'PROGRAMMNAME'" können alle geschriebene und existierende Programme aufgelistet werden.
+---------
+
+6.HELP
+Mit dem Befehl "help 'SCHLAGWORT'" kann nach bestimmten Schlagwörtern in der Console gesucht werden.
+---------
+
+7.SHUTDOWN
+Mit dem Befehl "shutdown" kann das System heruntergefahren werden.
+---------
+
+8.REBOOT ?
+Mit dem Befehl "reboot" kann das System Neu gestartet werden.
+---------

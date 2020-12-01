@@ -1,0 +1,6 @@
+hilfe;hilfefenster;hilfenavigation;help
+
+Hilfefenster
+
+Das Hilfefenster bietet einem die Möglichkeit, die Nutzung und Navigation dieses Programms kennenzulernen. 
+Desweiteren bietet das Hilfesystem zu den Programmiersprachen Lua und Basic erweitere Hilfen, was einzelne Befehle und Programmstücke angeht.

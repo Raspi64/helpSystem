@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.cpp">
+			<Option target="helpSystem"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp">
+			<Option target="helpSystem"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/main.cpp">
 			<Option target="helpSystem"/>
 		</Unit>

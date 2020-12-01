@@ -123,6 +123,33 @@ helpSystem/fast:
 	$(MAKE) -f CMakeFiles/helpSystem.dir/build.make CMakeFiles/helpSystem.dir/build
 .PHONY : helpSystem/fast
 
+helpSystem.o: helpSystem.cpp.o
+
+.PHONY : helpSystem.o
+
+# target to build an object file
+helpSystem.cpp.o:
+	$(MAKE) -f CMakeFiles/helpSystem.dir/build.make CMakeFiles/helpSystem.dir/helpSystem.cpp.o
+.PHONY : helpSystem.cpp.o
+
+helpSystem.i: helpSystem.cpp.i
+
+.PHONY : helpSystem.i
+
+# target to preprocess a source file
+helpSystem.cpp.i:
+	$(MAKE) -f CMakeFiles/helpSystem.dir/build.make CMakeFiles/helpSystem.dir/helpSystem.cpp.i
+.PHONY : helpSystem.cpp.i
+
+helpSystem.s: helpSystem.cpp.s
+
+.PHONY : helpSystem.s
+
+# target to generate assembly for a file
+helpSystem.cpp.s:
+	$(MAKE) -f CMakeFiles/helpSystem.dir/build.make CMakeFiles/helpSystem.dir/helpSystem.cpp.s
+.PHONY : helpSystem.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... helpSystem"
+	@echo "... helpSystem.o"
+	@echo "... helpSystem.i"
+	@echo "... helpSystem.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

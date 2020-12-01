@@ -6,15 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/main.cpp
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.cpp
+helpSystem.hpp
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp
 iostream
--
-string
--
-vector
 -
 filesystem
 -
 fstream
 -
+
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp
+string
+-
+vector
+-
+
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/main.cpp
+iostream
+-
+helpSystem.hpp
+/mnt/c/Users/Ununoctium/Desktop/uni/studium/5_Semester/Projektgruppe Link/helpSystem/helpSystem.hpp
 
