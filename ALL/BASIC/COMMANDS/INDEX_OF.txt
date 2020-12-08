@@ -1,4 +1,4 @@
-
+index_of;index of;index;postion;pos;liste;list;datatypes;datentypen;class;klasse;basic
 
 INDEX_OF:
 

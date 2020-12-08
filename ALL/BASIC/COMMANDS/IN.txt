@@ -1,4 +1,4 @@
-
+in;schleifen;dictionary;wörterbuch;woerterbuch;class;klassen;datentypen;datatypes;schleifen;loop;for;do;while;iterator;basic
 
 IN:
 

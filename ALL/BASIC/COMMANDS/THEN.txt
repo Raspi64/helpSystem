@@ -1,4 +1,4 @@
-
+then;if;else;abfrage;basic
 
 THEN:
 

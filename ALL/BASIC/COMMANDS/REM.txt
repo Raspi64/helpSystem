@@ -1,4 +1,4 @@
-
+rem;kommentar;notiz;note;basic
 
 REM:
 

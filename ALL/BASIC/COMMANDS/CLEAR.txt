@@ -1,4 +1,4 @@
-
+list;liste;clear;remove;löschen;loeschen;basic
 
 CLEAR:
 

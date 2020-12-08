@@ -1,4 +1,4 @@
-
+mem;memory;speicher;belegt;basic
 
 
 MEM:

@@ -1,8 +1,8 @@
-
+enddef;function;funktion;beenden;stoppen;basic
 
 ENDDEF:
 
-ENDEF beendet eine vom Programmierer definierte Funktion
+ENDEF beendet eine vom Programmierer definierte Funktion.
 
 
 Beispiel:

@@ -1,4 +1,4 @@
-
+false;boolean;true;basic
 
 FALSE:
 

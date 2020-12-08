@@ -1,4 +1,4 @@
-
+gosub;goto;jump;springen;return;rückgabe;basic
 
 GOSUB:
 

@@ -1,4 +1,4 @@
-
+insert;einfügen;list;liste;dataypen;datentypen;class;klassen;basic
 
 INSERT:
 

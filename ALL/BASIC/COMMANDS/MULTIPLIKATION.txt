@@ -1,4 +1,4 @@
-
+multiplikation;miltiplication;operator;math;mathematik;int;integer;basic
 
 MULTIPLIKATION:
 

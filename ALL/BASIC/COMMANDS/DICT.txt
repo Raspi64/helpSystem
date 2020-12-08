@@ -1,4 +1,4 @@
-
+dict;dictionary;wörterbuch;woerterbuch;basic
 
 
 DICT:

@@ -1,3 +1,4 @@
+kleiner;smaller;math;mathematik;basic
 
 
 KLEINER:

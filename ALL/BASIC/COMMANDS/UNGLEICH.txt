@@ -1,4 +1,4 @@
-
+ungleich:<>;int;integer;true;false;boolean;basic
 
 UNGLEICH:
 

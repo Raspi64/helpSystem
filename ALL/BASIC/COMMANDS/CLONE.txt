@@ -1,4 +1,4 @@
-
+list;liste;clone;kopieren;copy;kopie;basic
 
 CLONE:
 

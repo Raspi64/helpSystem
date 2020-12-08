@@ -1,4 +1,4 @@
-
+größer;groesser;operator;vergleichen;boolean;true;false;math;mathematik;basic
 
 GROESSER:
 

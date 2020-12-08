@@ -1,4 +1,4 @@
-
+or;oder;operator;math;mathematik;int;integer;basic
 
 OR:
 

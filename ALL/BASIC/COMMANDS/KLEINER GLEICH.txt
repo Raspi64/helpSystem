@@ -1,3 +1,4 @@
+kleiner;true;false;gleich;equals;=;math;mathematik;basic
 
 
 KLEINER GLEICH:

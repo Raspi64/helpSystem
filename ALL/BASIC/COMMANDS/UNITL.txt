@@ -1,6 +1,6 @@
+until;do while;do_while;while;do;schleife;loop;basic
 
-
-UNITL:
+UNTIL:
 
 Until beendet eine DO-While-Schleife mit einer Bedingung.
 

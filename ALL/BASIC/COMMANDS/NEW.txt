@@ -1,4 +1,4 @@
-
+new;neu;erstellen;object;objekt;delete;del;löschen;loeschen;basic
 
 NEW:
 

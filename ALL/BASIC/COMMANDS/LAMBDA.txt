@@ -1,4 +1,4 @@
-
+lambda;function;funktion;basic
 
 LAMBDA:
 

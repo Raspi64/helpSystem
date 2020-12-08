@@ -1,4 +1,4 @@
-
+endif;if;abfrage;beenden;stoppen;basic
 
 ENDIF:
 

@@ -1,4 +1,4 @@
-
+wend;beenden;while_do;while do;while;do;loop;schleife;basic
 
 WEND:
 

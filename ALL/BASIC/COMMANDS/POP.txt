@@ -1,4 +1,4 @@
-
+pop;list;liste;ende;einfügen;einfuegen;basic
 
 POP:
 

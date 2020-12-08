@@ -1,4 +1,4 @@
-
+nil;null;empty;datatype;datentyp;basic
 
 NIL:
 

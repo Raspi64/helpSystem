@@ -1,4 +1,4 @@
-
+endclass;class;basic
 
 ENDCLASS:
 

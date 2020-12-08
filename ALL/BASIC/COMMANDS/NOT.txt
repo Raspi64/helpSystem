@@ -1,4 +1,4 @@
-
+not;operator;math;mathematik;int;integer;basic
 
 NOT:
 

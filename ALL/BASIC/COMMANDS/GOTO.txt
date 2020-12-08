@@ -1,4 +1,4 @@
-
+gosub;goto;jump;springen;label;basic
 
 GOTO:
 

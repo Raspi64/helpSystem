@@ -1,4 +1,4 @@
-
+return;rückgabewert;rueckgabewert;rückgabe;rueckgabe;ergebnis;basic
 
 RETURN: 
 
