@@ -1,0 +1,14 @@
+
+
+GOSUB:
+
+GOSUB macht ein GOTO zu einem Unterprogramm und es kann mit einem RETURN zurück gesprungen werden.
+
+Beispiel:
+    GOSUB PRINTSMTH
+
+    Some Code
+
+    PRINTSMTH
+    print "Something";
+    RETURN

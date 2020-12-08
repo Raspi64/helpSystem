@@ -1,0 +1,13 @@
+
+
+CLEAR:
+
+Löscht den Inhalt der ganze Liste.
+
+    REMOVE(List)
+
+Beispiel:
+    
+    I = LIST(12,13,14,15)
+    REMOVE(I)
+

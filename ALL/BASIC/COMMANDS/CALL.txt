@@ -1,0 +1,8 @@
+
+
+CALL:
+
+Die CALL-Anweisung wird verwenedt um Funktionen aufzurufen
+
+Beispiel:
+    call funktion

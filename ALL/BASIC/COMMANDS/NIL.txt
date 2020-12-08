@@ -1,0 +1,11 @@
+
+
+NIL:
+
+NIL ist ein spezieller Typ der einen gültigen Wert null enthält. Der vorherige Wert einer Variablen wird entfernt, indem ihm null zugewiesen wird. 
+
+Beispiel:
+
+    I = 5
+    I = NIL
+    PRINT I

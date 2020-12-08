@@ -1,0 +1,10 @@
+
+
+INSERT:
+
+Der insert-Befehl fügt einen Wert an einer bestimmten Position einer Liste ein.Ist überschreibbar für referentierte Benutzertypen und Klasseninstanzen.
+
+Beispiel:
+    l = list(1,7,3,4)
+    insert(l,1,2)
+    print l(1)

@@ -1,0 +1,13 @@
+
+
+MOVE_NEXT:
+
+Gibt den Iterator an zum nächsten Wert zu gehen.
+
+Beispiel:
+    
+    I = LIST(12,13,14,15)
+    IT = ITERATOR(I)
+    WHILE MOVE_NEXT(IT)
+        PRINT GET(IT)
+    WEND

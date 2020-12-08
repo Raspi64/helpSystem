@@ -1,0 +1,5 @@
+
+
+EXIT:
+
+Ein EXIT Statement unterbricht laufende Schleifen.

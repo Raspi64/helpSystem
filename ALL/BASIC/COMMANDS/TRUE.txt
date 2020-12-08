@@ -1,0 +1,10 @@
+
+
+TRUE:
+
+Repräsentiert den boolean Wert true.
+
+Beispiel
+
+    A = TRUE
+    IF A = TRUE THEN PRINT "A = wahr"

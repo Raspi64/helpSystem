@@ -1,0 +1,10 @@
+
+
+TO:
+
+To gibt an bis zur welchem Wert die Schleife durchlaufen soll.
+
+Beispiel:
+    for i = 1 to 10 step 1
+        print i;
+    next i
